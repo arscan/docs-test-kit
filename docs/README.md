@@ -1,14 +1,16 @@
-Welcome to the Docs Test Kit documentation area.
+Welcome to the Docs Test Kit documentation. This area provides supplemental information for using this test kit, as well as developing this test kit.
 
+## Uesr Guides and Manuals
+* [Walkthrough](Walkthrough): A step-by-step guide to using this test kit.
+* [User Manual](Users-Manual): A comprehensive guide to using this test kit.
+* [FAQ](FAQ.md): Frequently asked questions about this test kit.
 
-## User Documentation
-* [User Manual](User-Manual)
-* [Walkthrough](Walkthrough.md)
-* [FAQ](FAQ.md)
+## 
 
-## Developer Documentation
-* [Developers Manual](Developers-Manual)
+## Developers Guides
+* [Developers Manual](Developers-Manual): A comprehensive guide to developing this test kit.
 
+## Updating Docs
 Documents in this section are committed within the
 main repository code of this site.  Please do not update the
 wiki directly, as those will be automatically overwritten by the
