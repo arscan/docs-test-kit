@@ -1,9 +1,13 @@
 Welcome to the Docs Test Kit documentation area.
 
-* [Walkthrough]
-* [Developers Manual]
-* [FAQ]
 
+## User Documentation
+* [User Manual](User%20Manual.md)
+* [Walkthrough](Walkthrough.md)
+* [FAQ](FAQ.md)
+
+## Developer Documentation
+* [Developers Manual](Developers Manual.md)
 
 Documents in this section are committed within the
 main repository code of this site.  Please do not update the
