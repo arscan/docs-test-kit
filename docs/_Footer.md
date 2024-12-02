@@ -1,1 +1,1 @@
-This is the footer
+Last Updated: v0.0.0
