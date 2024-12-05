@@ -1,6 +1,6 @@
 # Docs Test Kit Manual
 
-The Docs Test Kit does not provide any tools for evaluating any system conformance to any Implementation Gudie.
+The Docs Test Kit does not provide any tools for evaluating any system conformance to any Implementation Guide.
 
 ## Installation
 
@@ -10,20 +10,21 @@ and system requirements, are provided in the repository [README](../).
 
 ## User Guides
 * [Test Kit Walkthrough](Walkthrough): A step-by-step guide to using this test kit.
-* [FAQ](FAQ.md): Frequently asked questions about this test kit.
+* [Testing FAQ](FAQ.md): Frequently asked questions about this test kit.
 * [IE Browser](IE-Browser): Special A guide to using this test kit with Internet Explorer.
 
-# Developer Guides
+## Developer Guides
 * [Technical Overview](Technical-Overview): A guide to the architecture of this test kit.
-* [Standards Update process](Update-Process): How to update this Test Kit when new versions of standards are approved.
-* [Updating Documentation](Updating-Documentation): Process for updating this manual
-* [Inferno on HealthIT.gov Deployment](Deployment): Process for Deploying to HealthIT.gov
+* [Standards Update Guide](Update-Process): How to update this Test Kit when new versions of standards are approved.
+* [Terminology Guide](Terminology-Updates): How to update terminology used in this Test Kit.
+* [Unusual Implementation](unusual-implementation):  Gotchas and special cases to be aware of when updating this test kit.
+* [Deploying to Inferno on HealthIT.gov](Deployment): Process for Deploying to HealthIT.gov
 * 
 
 ## Reference
 * [Test Procedure Matrix](files/matrix.xlsx): A matrix of test procedures and their associated test cases.
+* [Test ID Mapping](files/mapping.xlsx) A file that maps test IDs from the SVAP to test IDs in this test kit.
 * [SVAP Updates](SVAP-Updates): A guide to updating this test kit to the latest version of the SVAP.
-* [Release Notes](Release-Notes): A list of changes for each release of this test kit.
 * [Known Issues](Known-Issues): A list of known issues with this test kit.
 
 ## Support
