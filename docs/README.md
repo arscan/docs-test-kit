@@ -14,6 +14,9 @@ and system requirements, are provided in the repository [README](../).
 * [IE Browser](IE-Browser): Special A guide to using this test kit with Internet Explorer.
 
 ## Developer Guides
+
+Developers of this Test Kit should be familiar with authoring Inferno Framework test suites.  The following guides provide additional information about the design and implementation of this test kit.
+
 * [Technical Overview](Technical-Overview): A guide to the architecture of this test kit.
 * [Standards Update Guide](Update-Process): How to update this Test Kit when new versions of standards are approved.
 * [Terminology Guide](Terminology-Updates): How to update terminology used in this Test Kit.
