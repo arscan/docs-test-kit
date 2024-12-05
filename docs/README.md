@@ -1,8 +1,9 @@
-Welcome to the Docs Test Kit documentation. This area provides supplemental information for using this test kit, as well as developing this test kit.
+# Test Kit Manual
 
-## Uesr Guides
+Welcome to the Docs Test Kit manual. This area provides supplemental information for using this test kit, as well as developing this test kit.
+
+## User Guides
 * [Walkthrough](Walkthrough): A step-by-step guide to using this test kit.
-* [User Manual](Users-Manual): A comprehensive guide to using this test kit.
 * [FAQ](FAQ.md): Frequently asked questions about this test kit.
 * [IE Browser](IE-Browser): Special A guide to using this test kit with Internet Explorer.
 
@@ -13,9 +14,9 @@ Welcome to the Docs Test Kit documentation. This area provides supplemental info
 * [Known Issues](Known-Issues): A list of known issues with this test kit.
 
 ## Developer Guides
-* [Developers Manual](Developers-Manual): A comprehensive guide to developing this test kit.
+* [Developers Guide](Developers-Manual): A comprehensive guide to developing this test kit.
 
-## Updating Docs
+# Updating this Manual
 Documents in this section are committed within the
 main repository code of this site.  Please do not update the
 wiki directly, as those will be automatically overwritten by the
