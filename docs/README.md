@@ -17,9 +17,8 @@ and system requirements, are provided in the repository [README](../).
 * [Technical Overview](Technical-Overview): A guide to the architecture of this test kit.
 * [Standards Update Guide](Update-Process): How to update this Test Kit when new versions of standards are approved.
 * [Terminology Guide](Terminology-Updates): How to update terminology used in this Test Kit.
-* [Unusual Implementation](unusual-implementation):  Gotchas and special cases to be aware of when updating this test kit.
+* [Special Cases](unusual-implementation):  Gotchas and special cases to be aware of when updating this test kit.
 * [Deploying to Inferno on HealthIT.gov](Deployment): Process for Deploying to HealthIT.gov
-* 
 
 ## Reference
 * [Test Procedure Matrix](files/matrix.xlsx): A matrix of test procedures and their associated test cases.
