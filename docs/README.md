@@ -1,22 +1,24 @@
-# Test Kit Manual
+# Docs Test Kit Manual
 
-The Docs Test Kit provides tools for evaluating system conformance
-against ABC Implementation Guide. 
-
+The Docs Test Kit does not provide any tools for evaluating any system conformance to any Implementation Gudie.
 
 ## Installation
 
 Information on downloading and running this application, including prerequisites
 and system requirements, are provided in the repository [README](../).
 
-Welcome to the Docs Test Kit manual. This area provides supplemental information
-for using this test kit, as well as developing this test kit.
 
-## Guides
-* [Walkthrough](Walkthrough): A step-by-step guide to using this test kit.
-* [Developers Guide](Developers-Manual): A comprehensive guide to developing this test kit.
+## User Guides
+* [Test Kit Walkthrough](Walkthrough): A step-by-step guide to using this test kit.
 * [FAQ](FAQ.md): Frequently asked questions about this test kit.
 * [IE Browser](IE-Browser): Special A guide to using this test kit with Internet Explorer.
+
+# Developer Guides
+* [Technical Overview](Technical-Overview): A guide to the architecture of this test kit.
+* [Standards Update process](Update-Process): How to update this Test Kit when new versions of standards are approved.
+* [Updating Documentation](Updating-Documentation): Process for updating this manual
+* [Inferno on HealthIT.gov Deployment](Deployment): Process for Deploying to HealthIT.gov
+* 
 
 ## Reference
 * [Test Procedure Matrix](files/matrix.xlsx): A matrix of test procedures and their associated test cases.
