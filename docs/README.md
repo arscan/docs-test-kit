@@ -24,10 +24,11 @@ Developers of this Test Kit should be familiar with authoring Inferno Framework 
 * [Deploying to Inferno on HealthIT.gov](Deployment): Process for Deploying to HealthIT.gov
 
 ## Reference
+* [Test List](files/test-list.xlsx): A list of all test cases in this test kit.
+* [Requirements](files/requirements.xlsx): A list of requirements that have been extracted from relevant guides.
 * [Test Procedure Matrix](files/matrix.xlsx): A matrix of test procedures and their associated test cases.
 * [Test ID Mapping](files/mapping.xlsx) A file that maps test IDs from the SVAP to test IDs in this test kit.
 * [SVAP Updates](SVAP-Updates): A guide to updating this test kit to the latest version of the SVAP.
-* [Known Issues](Known-Issues): A list of known issues with this test kit.
 
 ## Support
 
