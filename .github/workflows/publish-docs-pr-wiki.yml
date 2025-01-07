@@ -6,9 +6,10 @@ concurrency:
   group: publish-wiki
   cancel-in-progress: true
 permissions:
+  pull-requests: write
   contents: write
 jobs:
-  unpublish-docs-pr-wiki:
+  publish-docs-pr-wiki:
     runs-on: ubuntu-latest
     if: (startsWith(github.event.pull_request.title, 'DOCS') || startsWith(github.event.pull_request.title, '[DOCS]'))
     steps:
