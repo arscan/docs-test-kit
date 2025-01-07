@@ -1,18 +1,18 @@
-name: Publish wiki
+name: Unpublish wiki changes in unmerged docs PR
 on:
-  push:
-    branches: [main]
-    paths:
-      - docs/**
-      - .github/workflows/publish-wiki.yml
+  pull_request:
+    types: [closed]
 concurrency:
   group: publish-wiki
   cancel-in-progress: true
 permissions:
   contents: write
 jobs:
-  publish-wiki:
+  unpublish-docs-pr-wiki:
     runs-on: ubuntu-latest
+    if: |
+      github.event.pull_request.merged == false && 
+      (startsWith(github.event.pull_request.title, 'DOCS') || startsWith(github.event.pull_request.title, '[DOCS]'))
     steps:
       - uses: actions/checkout@v4
       - uses: Andrew-Chen-Wang/github-wiki-action@86138cbd6328b21d759e89ab6e6dd6a139b22270
