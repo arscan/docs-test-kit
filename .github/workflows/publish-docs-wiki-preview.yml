@@ -1,4 +1,4 @@
-name: Preview Wiki from PR
+name: Preview Docs Wiki from PR
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
