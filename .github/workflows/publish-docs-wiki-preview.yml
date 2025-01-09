@@ -1,17 +1,20 @@
-name: Publish wiki changes in docs PR
+name: Publish wiki changes in docs PR as preview
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
+    paths:
+      - docs/**
+      - .github/workflows/publish-docs-wiki-preview.yml
 concurrency:
-  group: publish-wiki
+  group: publish-docs-wiki
   cancel-in-progress: true
 permissions:
   pull-requests: write
   contents: write
 jobs:
-  publish-docs-pr-wiki:
+  publish-docs-wiki-preview:
     runs-on: ubuntu-latest
-    if: (startsWith(github.event.pull_request.title, 'DOCS') || startsWith(github.event.pull_request.title, '[DOCS]'))
+    if: (contains(github.event.pull_request.title, '(docs)') || contains(github.event.pull_request.title, '[docs]'))
     steps:
       - uses: actions/checkout@v4
       - uses: Andrew-Chen-Wang/github-wiki-action@86138cbd6328b21d759e89ab6e6dd6a139b22270
@@ -28,4 +31,5 @@ jobs:
               issue_number: context.issue.number,
               body: `[Wiki](/${context.repo.owner}/${context.repo.repo}/wiki) has been updated with the content of this docs PR for preview.
                      Close this PR to revert the Wiki changes to /docs folder on main.`
-            })
+              body: `The [Documentation Wiki](/${context.repo.owner}/${context.repo.repo}/wiki) has been updated with a preview of the content of this PR because the title contains "(docs)" or "[docs]".  Note that this has overwritten the regular wiki contents for convenience.  Close this PR or manually run the 'Publish Docs Wiki' workflow to revert the wiki changes to /docs folder on main.`
+           '})
